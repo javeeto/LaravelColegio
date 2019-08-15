@@ -40,3 +40,53 @@
   770  history|grep artisan >> command.txt
   794  php artisan serve
   803  history|grep artisan >> commandlaravel.txt 
+ 1107  php artisan make:migration add_fuente_to_librousuarios --table=librousuarios
+ 1108  php artisan migrate
+ 1124  php artisan make:migration alter_tamanofuente_to_librousuarios_table --table=librousuarios
+ 1125  php artisan migrate
+ 1126  php artisan make:migration alter_tamanofuente_to_librousuarios_table --table=librousuarios
+ 1171  php artisan make:seeder EstadoventaTableSeeder
+ 1173  php artisan db:seed --class=EstadoventaTableSeeder
+ 1237  php artisan make:controller --resource --model=Venta
+ 1238  php artisan make:controller VentaController  --resource --model=Venta
+ 1287  php artisan up
+ 1289  php artisan make:migration create_sala_table --table=sala
+ 1290  php artisan migrate
+ 1291  php artisan app:name Reserva
+ 1292  php artisan migrate
+ 1294  php artisan migrate:rollback
+ 1296  php artisan migrate
+ 1298  php artisan migrate
+ 1301  php artisan migrate
+ 1302  php artisan make:migration create_funcion_table 
+ 1303  php artisan migrate
+ 1304  php artisan make:migration create_butaca_table 
+ 1305  php artisan migrate
+ 1306  php artisan make:migration create_reserva_table 
+ 1307  php artisan migrate
+ 1308  php artisan make:migration create_detallereserva_table 
+ 1309  php artisan migrate
+ 1311  php artisan make:controller PrincipalController --resource
+ 1313  php artisan make:migration add_deleted_to_users_table --table=users
+ 1314  php artisan migrate
+ 1317  php artisan make:model Reserva -m
+ 1318  php artisan make:model DetalleReserva -m
+ 1319  php artisan make:model Butaca -m
+ 1320  php artisan make:model Funcion -m
+ 1323  php artisan make:controller ReservaController --resource --model=Reserva
+ 1324  php artisan make:controller FuncionController --resource --model=Funcion
+ 1326  php artisan make:seeder FuncionTableSeeder
+ 1327  php artisan make:seeder SalaTableSeeder
+ 1328  php artisan make:seeder ButacaTableSeeder
+ 1329  php artisan db:seed --class=SalaTableSeeder
+ 1330  php artisan db:seed --class=FuncionTableSeeder
+ 1331  php artisan db:seed --class=ButacaTableSeeder
+ 1332  php artisan make:controller SalaController --resource --model=Sala
+ 1333  php artisan make:model Sala 
+ 1334  php artisan make:controller SalaController --resource --model=Sala
+ 1335  php artisan make:controller ButacaController --resource --model=Sala
+ 1971  history¡grep artisan
+ 1972  history|grep artisan
+ 1975  php artisan app:name
+ 1978  php artisan make:seeder UserTableSeeder
+ 1980  php artisan db:seed --class=UserTableSeeder
