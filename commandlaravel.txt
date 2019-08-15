@@ -1,0 +1,42 @@
+  716  apt-cache search composer
+  717  apt-get install composer
+  718  sudo apt-get install composer
+  719  composer create-project --prefer-dist laravel/laravel colegio
+  745  composer require laravelcollective/html
+  765  history|grep composer
+  769  history|grep composer > command.txt
+  797  composer create-project --prefer-dist laravel/laravel instrumento
+  802  history|grep composer > commandlaravel.txt 
+  388  cat /home/javeeto/backupdisk/backup2/hssj3 |grep artisan
+  389  cat /home/javeeto/backupdisk/backup/hss2j |grep artisan
+  390  php artisan down 
+  391  php artisan up
+  392  php artisan migrate
+  395  cat /home/javeeto/backupdisk/backup2/hssj3 |grep artisan
+  396  php artisan db:seed --class=DatabaseSeeder
+  403  cat /home/javeeto/backupdisk/backup/hss2j |grep artisan
+  404  php artisan passport:client --password
+  522  history|grep artisan
+  723  php artisan serve
+  729  php artisan make:model Alumno -m
+  736  php artisan migrate
+  737  php artisan make:controller alumnoController --resource
+  742  php artisan serve
+  744  php artisan route:list
+  747  php artisan serve
+  749  php artisan serve
+  751  php artisan|more
+  752  php artisan make:request AlumnoRequest
+  754  php artisan serve
+  755  history|grep artisan
+  757  php artisan make:model Genero -m
+  758  cat /home/javeeto/backupdisk/backup2/hssj3 |grep artisan
+  759  cat /home/javeeto/backupdisk/backup/hss2j|grep artisan
+  760  php artisan make:seeder GeneroTableSeeder
+  761  php artisan migrate
+  762  php artisan db:seed --class=GeneroTableSeeder
+  763  php artisan make:controller GeneroController --resource
+  766  history|grep artisan
+  770  history|grep artisan >> command.txt
+  794  php artisan serve
+  803  history|grep artisan >> commandlaravel.txt 
